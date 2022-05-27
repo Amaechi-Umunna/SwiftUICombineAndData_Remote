@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584DEF102840E6FB004CC5EC /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF0F2840E6FB004CC5EC /* GradientIcon.swift */; };
+		584DEF122841117E004CC5EC /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF112841117E004CC5EC /* FAQView.swift */; };
+		584DEF142841118B004CC5EC /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF132841118B004CC5EC /* PackagesView.swift */; };
 		587071992838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587071982838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift */; };
 		5870719B2838DF11001BAFA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870719A2838DF11001BAFA6 /* ContentView.swift */; };
 		5870719D2838DF14001BAFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870719C2838DF14001BAFA6 /* Assets.xcassets */; };
 		587071A02838DF14001BAFA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870719F2838DF14001BAFA6 /* Preview Assets.xcassets */; };
+		589B851C283BAB6700BAF353 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B851A283BAB6700BAF353 /* AccountBackground.swift */; };
+		589B851D283BAB6700BAF353 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B851B283BAB6700BAF353 /* VisualEffectBlur.swift */; };
+		589B851F283BB50400BAF353 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B851E283BB50400BAF353 /* TrackableScrollView.swift */; };
+		589B8521283C8C8B00BAF353 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B8520283C8C8B00BAF353 /* MenuRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		584DEF0F2840E6FB004CC5EC /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
+		584DEF112841117E004CC5EC /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		584DEF132841118B004CC5EC /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
 		587071952838DF11001BAFA6 /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587071982838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		5870719A2838DF11001BAFA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5870719C2838DF14001BAFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5870719F2838DF14001BAFA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		589B851A283BAB6700BAF353 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
+		589B851B283BAB6700BAF353 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		589B851E283BB50400BAF353 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		589B8520283C8C8B00BAF353 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584DEF15284111B9004CC5EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				584DEF112841117E004CC5EC /* FAQView.swift */,
+				584DEF132841118B004CC5EC /* PackagesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		584DEF16284111D4004CC5EC /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				589B8520283C8C8B00BAF353 /* MenuRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		584DEF17284111EA004CC5EC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				584DEF0F2840E6FB004CC5EC /* GradientIcon.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		584DEF1828411200004CC5EC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				589B851E283BB50400BAF353 /* TrackableScrollView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		584DEF1928411233004CC5EC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				584DEF17284111EA004CC5EC /* Other */,
+				584DEF16284111D4004CC5EC /* Rows */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		5870718C2838DF11001BAFA6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +107,10 @@
 		587071972838DF11001BAFA6 /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				584DEF1928411233004CC5EC /* Components */,
+				584DEF1828411200004CC5EC /* Utils */,
+				584DEF15284111B9004CC5EC /* Views */,
+				589B8519283BAB4000BAF353 /* Graphics */,
 				587071982838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift */,
 				5870719A2838DF11001BAFA6 /* ContentView.swift */,
 				5870719C2838DF14001BAFA6 /* Assets.xcassets */,
@@ -65,6 +125,15 @@
 				5870719F2838DF14001BAFA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		589B8519283BAB4000BAF353 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				589B851A283BAB6700BAF353 /* AccountBackground.swift */,
+				589B851B283BAB6700BAF353 /* VisualEffectBlur.swift */,
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +207,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5870719B2838DF11001BAFA6 /* ContentView.swift in Sources */,
+				589B851F283BB50400BAF353 /* TrackableScrollView.swift in Sources */,
+				589B851C283BAB6700BAF353 /* AccountBackground.swift in Sources */,
+				584DEF122841117E004CC5EC /* FAQView.swift in Sources */,
+				584DEF142841118B004CC5EC /* PackagesView.swift in Sources */,
+				584DEF102840E6FB004CC5EC /* GradientIcon.swift in Sources */,
 				587071992838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift in Sources */,
+				589B851D283BAB6700BAF353 /* VisualEffectBlur.swift in Sources */,
+				589B8521283C8C8B00BAF353 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
