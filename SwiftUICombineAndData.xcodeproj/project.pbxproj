@@ -12,6 +12,10 @@
 		584DEF142841118B004CC5EC /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF132841118B004CC5EC /* PackagesView.swift */; };
 		584DEF1E2845D8B9004CC5EC /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF1D2845D8B9004CC5EC /* Package.swift */; };
 		584DEF202845DA46004CC5EC /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF1F2845DA46004CC5EC /* PackageRow.swift */; };
+		584DEF22284647F5004CC5EC /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF21284647F5004CC5EC /* FAQ.swift */; };
+		584DEF25284652AC004CC5EC /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = 584DEF24284652AC004CC5EC /* faqData.json */; };
+		584DEF27284659C4004CC5EC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF26284659C4004CC5EC /* ModelData.swift */; };
+		584DEF2928465E83004CC5EC /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF2828465E83004CC5EC /* FAQRow.swift */; };
 		587071992838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587071982838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift */; };
 		5870719B2838DF11001BAFA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870719A2838DF11001BAFA6 /* ContentView.swift */; };
 		5870719D2838DF14001BAFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870719C2838DF14001BAFA6 /* Assets.xcassets */; };
@@ -28,6 +32,10 @@
 		584DEF132841118B004CC5EC /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
 		584DEF1D2845D8B9004CC5EC /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		584DEF1F2845DA46004CC5EC /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
+		584DEF21284647F5004CC5EC /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		584DEF24284652AC004CC5EC /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
+		584DEF26284659C4004CC5EC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		584DEF2828465E83004CC5EC /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
 		587071952838DF11001BAFA6 /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587071982838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		5870719A2838DF11001BAFA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +72,7 @@
 			children = (
 				589B8520283C8C8B00BAF353 /* MenuRow.swift */,
 				584DEF1F2845DA46004CC5EC /* PackageRow.swift */,
+				584DEF2828465E83004CC5EC /* FAQRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -80,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				589B851E283BB50400BAF353 /* TrackableScrollView.swift */,
+				584DEF26284659C4004CC5EC /* ModelData.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -97,8 +107,17 @@
 			isa = PBXGroup;
 			children = (
 				584DEF1D2845D8B9004CC5EC /* Package.swift */,
+				584DEF21284647F5004CC5EC /* FAQ.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		584DEF2328465241004CC5EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				584DEF24284652AC004CC5EC /* faqData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		5870718C2838DF11001BAFA6 = {
@@ -120,6 +139,7 @@
 		587071972838DF11001BAFA6 /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				584DEF2328465241004CC5EC /* Resources */,
 				584DEF1A2845D833004CC5EC /* Models */,
 				584DEF1928411233004CC5EC /* Components */,
 				584DEF1828411200004CC5EC /* Utils */,
@@ -210,6 +230,7 @@
 			files = (
 				587071A02838DF14001BAFA6 /* Preview Assets.xcassets in Resources */,
 				5870719D2838DF14001BAFA6 /* Assets.xcassets in Resources */,
+				584DEF25284652AC004CC5EC /* faqData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,13 +242,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5870719B2838DF11001BAFA6 /* ContentView.swift in Sources */,
+				584DEF2928465E83004CC5EC /* FAQRow.swift in Sources */,
 				589B851F283BB50400BAF353 /* TrackableScrollView.swift in Sources */,
 				589B851C283BAB6700BAF353 /* AccountBackground.swift in Sources */,
+				584DEF27284659C4004CC5EC /* ModelData.swift in Sources */,
 				584DEF202845DA46004CC5EC /* PackageRow.swift in Sources */,
 				584DEF122841117E004CC5EC /* FAQView.swift in Sources */,
 				584DEF142841118B004CC5EC /* PackagesView.swift in Sources */,
 				584DEF102840E6FB004CC5EC /* GradientIcon.swift in Sources */,
 				584DEF1E2845D8B9004CC5EC /* Package.swift in Sources */,
+				584DEF22284647F5004CC5EC /* FAQ.swift in Sources */,
 				587071992838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift in Sources */,
 				589B851D283BAB6700BAF353 /* VisualEffectBlur.swift in Sources */,
 				589B8521283C8C8B00BAF353 /* MenuRow.swift in Sources */,
