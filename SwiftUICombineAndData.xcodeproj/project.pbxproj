@@ -16,6 +16,8 @@
 		584DEF25284652AC004CC5EC /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = 584DEF24284652AC004CC5EC /* faqData.json */; };
 		584DEF27284659C4004CC5EC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF26284659C4004CC5EC /* ModelData.swift */; };
 		584DEF2928465E83004CC5EC /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF2828465E83004CC5EC /* FAQRow.swift */; };
+		584DEF2C284862FB004CC5EC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF2B284862FB004CC5EC /* PrimaryButton.swift */; };
+		584DEF2E28486512004CC5EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DEF2D28486512004CC5EC /* Extensions.swift */; };
 		587071992838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587071982838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift */; };
 		5870719B2838DF11001BAFA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870719A2838DF11001BAFA6 /* ContentView.swift */; };
 		5870719D2838DF14001BAFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870719C2838DF14001BAFA6 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 		584DEF24284652AC004CC5EC /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
 		584DEF26284659C4004CC5EC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		584DEF2828465E83004CC5EC /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
+		584DEF2B284862FB004CC5EC /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		584DEF2D28486512004CC5EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		587071952838DF11001BAFA6 /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587071982838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		5870719A2838DF11001BAFA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 			children = (
 				589B851E283BB50400BAF353 /* TrackableScrollView.swift */,
 				584DEF26284659C4004CC5EC /* ModelData.swift */,
+				584DEF2D28486512004CC5EC /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 		584DEF1928411233004CC5EC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				584DEF2A284862E5004CC5EC /* Buttons */,
 				584DEF17284111EA004CC5EC /* Other */,
 				584DEF16284111D4004CC5EC /* Rows */,
 			);
@@ -118,6 +124,14 @@
 				584DEF24284652AC004CC5EC /* faqData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		584DEF2A284862E5004CC5EC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				584DEF2B284862FB004CC5EC /* PrimaryButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		5870718C2838DF11001BAFA6 = {
@@ -252,7 +266,9 @@
 				584DEF102840E6FB004CC5EC /* GradientIcon.swift in Sources */,
 				584DEF1E2845D8B9004CC5EC /* Package.swift in Sources */,
 				584DEF22284647F5004CC5EC /* FAQ.swift in Sources */,
+				584DEF2E28486512004CC5EC /* Extensions.swift in Sources */,
 				587071992838DF11001BAFA6 /* SwiftUICombineAndDataApp.swift in Sources */,
+				584DEF2C284862FB004CC5EC /* PrimaryButton.swift in Sources */,
 				589B851D283BAB6700BAF353 /* VisualEffectBlur.swift in Sources */,
 				589B8521283C8C8B00BAF353 /* MenuRow.swift in Sources */,
 			);
