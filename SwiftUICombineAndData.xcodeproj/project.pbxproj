@@ -22,6 +22,7 @@
 		5870719B2838DF11001BAFA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870719A2838DF11001BAFA6 /* ContentView.swift */; };
 		5870719D2838DF14001BAFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870719C2838DF14001BAFA6 /* Assets.xcassets */; };
 		587071A02838DF14001BAFA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870719F2838DF14001BAFA6 /* Preview Assets.xcassets */; };
+		5876E9FD2848DA70001C6F13 /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5876E9FC2848DA70001C6F13 /* ProfileRow.swift */; };
 		589B851C283BAB6700BAF353 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B851A283BAB6700BAF353 /* AccountBackground.swift */; };
 		589B851D283BAB6700BAF353 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B851B283BAB6700BAF353 /* VisualEffectBlur.swift */; };
 		589B851F283BB50400BAF353 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B851E283BB50400BAF353 /* TrackableScrollView.swift */; };
@@ -45,6 +46,7 @@
 		5870719A2838DF11001BAFA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5870719C2838DF14001BAFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5870719F2838DF14001BAFA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5876E9FC2848DA70001C6F13 /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
 		589B851A283BAB6700BAF353 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
 		589B851B283BAB6700BAF353 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		589B851E283BB50400BAF353 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				589B8520283C8C8B00BAF353 /* MenuRow.swift */,
 				584DEF1F2845DA46004CC5EC /* PackageRow.swift */,
 				584DEF2828465E83004CC5EC /* FAQRow.swift */,
+				5876E9FC2848DA70001C6F13 /* ProfileRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				584DEF122841117E004CC5EC /* FAQView.swift in Sources */,
 				584DEF142841118B004CC5EC /* PackagesView.swift in Sources */,
 				584DEF102840E6FB004CC5EC /* GradientIcon.swift in Sources */,
+				5876E9FD2848DA70001C6F13 /* ProfileRow.swift in Sources */,
 				584DEF1E2845D8B9004CC5EC /* Package.swift in Sources */,
 				584DEF22284647F5004CC5EC /* FAQ.swift in Sources */,
 				584DEF2E28486512004CC5EC /* Extensions.swift in Sources */,

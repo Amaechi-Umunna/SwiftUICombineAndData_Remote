@@ -19,7 +19,7 @@ struct ContentView: View {
                     contentOffset = offset.y
                     
                 }) {
-                content
+                    content
                     
                 }
                 VisualEffectBlur(blurStyle: .systemMaterial)
@@ -38,7 +38,7 @@ struct ContentView: View {
     
     var content: some View {
         VStack {
-//            More Content
+            ProfileRow()
             VStack {
                 NavigationLink(destination: FAQView()) {
                     MenuRow()
@@ -57,12 +57,8 @@ struct ContentView: View {
                 })
                 
             }
-            .padding(16)
-            .background(Color("Background 1"))
-            .background(VisualEffectBlur(blurStyle: .systemUltraThinMaterialDark))
-            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Color.white, lineWidth: 1).blendMode(.overlay))
-            .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .padding(.top, 20)
+            .blurBackground()
+            .padding(.top, 20)
             
             Text("Version 1.00")
                 .foregroundColor(.white.opacity(0.7))
@@ -86,6 +82,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-//            .preferredColorScheme(.dark)
+        //            .preferredColorScheme(.dark)
     }
 }
